@@ -1,0 +1,138 @@
+- Table of Contents
+  - COVER
+  - FOREWORD
+  - INTRODUCTION 
+  - WHO THIS BOOK IS FOR
+  - WHAT YOU NEED TO USE THIS BOOK
+  - WHAT THIS BOOK COVERS 
+  - HOW THIS BOOK IS STRUCTURED 
+  - CONVENTIONS 
+  - SOURCE CODE 
+  - ERRATA 
+- 01 An Introduction to Plugins
+  - WHAT IS A PLUGIN?
+  - AVAILABLE PLUGINS
+  - ADVANTAGES OF PLUGINS
+  - INSTALLING AND MANAGING PLUGINS 
+  - SUMMARY
+- 02 Plugin Framework 
+  - REQUIREMENTS FOR PLUGINS 
+  - BEST PRACTICES 
+  - PLUGIN HEADER 
+  - DETERMINING PATHS 
+  - ACTIVATE/DEACTIVATE FUNCTIONS 
+  - UNINSTALL METHODS 
+  - CODING STANDARDS 
+  - SUMMARY
+- 03 Dashboard and Settings 
+  - ADDING MENUS AND SUBMENUS 
+  - PLUGIN SETTINGS 
+  - THE OPTIONS API 
+  - THE SETTINGS API 
+  - KEEPING IT CONSISTENT 
+  - SUMMARY
+- 04 Security and Performance 
+  - SECURITY OVERVIEW 
+  - USER PERMISSIONS 
+  - NONCES 
+  - DATA VALIDATION AND SANITIZATION 
+  - FORMATTING SQL STATEMENTS 
+  - SECURITY GOOD HABITS 
+  - PERFORMANCE OVERVIEW 
+  - CACHING 
+  - TRANSIENTS 
+  - SUMMARY 
+- 05 Hooks 
+  - UNDERSTANDING HOOKS 
+  - ACTIONS 
+  - FILTERS 
+  - USING HOOKS FROM WITHIN A CLASS 
+  - USING HOOKS WITH ANONYMOUS FUNCTIONS 
+  - CREATING CUSTOM HOOKS 
+  - FINDING HOOKS 
+  - SUMMARY
+- 06 JavaScript 
+  - REGISTERING SCRIPTS 
+  - ENQUEUEING SCRIPTS 
+  - LIMITING SCOPE LOCALIZING SCRIPTS 
+  - INLINE SCRIPTS 
+  - OVERVIEW OF BUNDLED SCRIPTS 
+  - POLYFILLS 
+  - YOUR CUSTOM SCRIPTS 
+  - jQuery 
+  - BACKBONE/UNDERSCORE 
+  - REACT 
+  - SUMMARY
+- 07 Blocks and Gutenberg 
+  - WHAT IS GUTENBERG?
+  - TOURING GUTENBERG 
+  - PRACTICAL EXAMPLES 
+  - TECHNOLOGY STACK OF GUTENBERG 
+  - “HELLO WORLD!” BLOCK 
+  - WP‐CLI SCAFFOLDING CREATE‐GUTEN‐BLOCK TOOLKIT BLOCK DIRECTORY SUMMARY
+- 08 Content 
+  - CREATING CUSTOM POST TYPES 
+  - POST METADATA 
+  - META BOXES 
+  - CREATING CUSTOM TAXONOMIES 
+  - USING CUSTOM TAXONOMIES 
+  - A POST TYPE, POST METADATA, AND TAXONOMY PLUGIN 
+  - SUMMARY
+- 09 Users and User Data 
+  - WORKING WITH USERS 
+  - ROLES AND CAPABILITIES 
+  - LIMITING ACCESS 
+  - CUSTOMIZING ROLES 
+  - SUMMARY
+- 10 Scheduled Tasks 
+  - WHAT IS CRON? 
+  - SCHEDULING CRON EVENTS 
+  - TRUE CRON 
+  - PRACTICAL USE 
+  - SUMMARY
+- 11 Internationalization 
+  - INTERNATIONALIZATION AND LOCALIZATION 
+  - CREATING TRANSLATION FILES 
+  - SUMMARY
+- 12 REST API 
+  - WHAT THE REST API IS 
+  - WHAT YOU CAN DO WITH THE REST API 
+  - ACCESSING THE WORDPRESS REST API 
+  - THE HTTP API 
+  - WORDPRESS’ HTTP FUNCTIONS 
+  - BRINGING IT ALL TOGETHER 
+  - SUMMARY
+- 13 Multisite 
+  - TERMINOLOGY 
+  - ADVANTAGES OF MULTISITE 
+  - ENABLING MULTISITE IN WORDPRESS 
+  - MULTISITE FUNCTIONS 
+  - DATABASE SCHEMA 
+  - QUERY CLASSES 
+  - OBJECT CLASSES 
+  - SUMMARY
+- 14 The Kitchen Sink 
+  - QUERYING AND DISPLAYING POSTS 
+  - SHORTCODES 
+  - WIDGETS 
+  - DASHBOARD WIDGETS 
+  - REWRITE RULES 
+  - THE HEARTBEAT API 
+  - SUMMARY
+- 15 Debugging
+  - COMPATIBILITY 
+  - DEBUGGING 
+  - ERROR LOGGING 
+  - QUERY MONITOR
+  - SUMMARY
+- 16 The Developer Toolbox
+  - CORE AS REFERENCE 
+  - PLUGIN DEVELOPER HANDBOOK 
+  - CODEX 
+  - TOOL WEBSITES 
+  - COMMUNITY RESOURCES 
+  - TOOLS 
+  - SUMMARY
+
+INDEX END USER LICENSE AGREEMENT List of Tables Chapter 3 TABLE 3-1: List of Core Sections and Fields 
+Chapter 12 TABLE 12-1: Main HTTP Status Codes TABLE 12-2: HTTP Status Code Classes TABLE 12-3: Default Settings of wp_remote_ Functions Optional Parameters List of Illustrations Chapter 1 FIGURE 1-1: Loading a page in WordPress FIGURE 1-2: Plugins menu FIGURE 1-3: Install Now button FIGURE 1-4: Types and statuses for plugins Chapter 3 FIGURE 3-1: Custom registered menu FIGURE 3-2: Submenus FIGURE 3-3: Submenu labeled PDEV Settings FIGURE 3-4: Plugin management page FIGURE 3-5: Error message FIGURE 3-6: Section appended FIGURE 3-7: Singular field FIGURE 3-8: Heading levels FIGURE 3-9: Dashicons FIGURE 3-10: Dismissable notices FIGURE 3-11: WordPress-styled button FIGURE 3-12: Link styled to look like a button FIGURE 3-13: WordPress-like options FIGURE 3-14: Table style FIGURE 3-15: Pagination style Chapter 4 FIGURE 4-1: Insufficient privileges FIGURE 4-2: Expired link message FIGURE 4-3: Rogue JavaScript running FIGURE 4-4: Related Posts list Chapter 7 FIGURE 7-1: Classic Editor, not covered in this chapter FIGURE 7-2: Gutenberg FIGURE 7-3: Block Library menu FIGURE 7-4: Categories of blocks FIGURE 7-5: View options FIGURE 7-6: Sidebar's Document menu FIGURE 7-7: Sidebar's Block menu and formatting toolbar FIGURE 7-8: WooCommerce blocks FIGURE 7-9: Newest Products block FIGURE 7-10: Event Calendar blocks FIGURE 7-11: Post Type Switcher plugin FIGURE 7-12: webpack finishing successfully FIGURE 7-13: Our “Hello world!” block in the Block Library FIGURE 7-14: Selecting our new block FIGURE 7-15: Editing a post FIGURE 7-16: WP-CLI scaffold generated FIGURE 7-17: Build Step 1 FIGURE 7-18: Build Step 2 FIGURE 7-19: Build Step 3 FIGURE 7-20: My Block in Block Library FIGURE 7-21: My Block in Content Area Chapter 8 FIGURE 8-1: Books admin menu and screen FIGURE 8-2: Tags submenu item FIGURE 8-3: Genres submenu Chapter 9 FIGURE 9-1: New form on the user edit page FIGURE 9-2: New roles Chapter 10 FIGURE 10-1: Scheduled Events page FIGURE 10-2: Number output Chapter 11 FIGURE 11-1: Settings box Chapter 12 FIGURE 12-1: Unformatted JSON FIGURE 12-2: Formatted JSON FIGURE 12-3: Post results FIGURE 12-4: Error message FIGURE 12-5: Authentication worked FIGURE 12-6: “My Time at Crystal Lake” post Chapter 13 FIGURE 13-1: Tools ➪ Network menu options Chapter 14 FIGURE 14-1: Simple post list FIGURE 14-2: Widgets admin screen FIGURE 14-3: Favorites list FIGURE 14-4: Custom dashboard widget FIGURE 14-5: Custom dashboard widget Chapter 15 FIGURE 15-1: Admin Toolbar menu item FIGURE 15-2: Query Monitor interface FIGURE 15-3: Database queries Chapter 16 FIGURE 16-1: Function with parameters FIGURE 16-2: Codex search options FIGURE 16-3: WordPress PHPXref FIGURE 16-4: Function list PROFESSIONAL WORDPRESS® PLUGIN DEVELOPMENT
