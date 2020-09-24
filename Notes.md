@@ -32,10 +32,17 @@
       - [ ] Plugin Directories 009
       - [ ] Types of Plugins 010
   -  [ ] Summary 011
-- 02 Plugin Framework 
-  - REQUIREMENTS FOR PLUGINS 
-  - BEST PRACTICES 
-  - PLUGIN HEADER 
+- 02 Plugin Framework 013
+  - [ ] Requirements for Plugins 013
+    - [ ] Naming Your Plugin
+    - [ ] Using a Folder
+  - [ ] Best Practices 014
+    - [ ] Namespace Everything
+    - [ ] File Organization
+    - [ ] Folder Structure
+  - Plugin Header
+    - [ ] Creating the Header
+    - [ ] Plugin License
   - DETERMINING PATHS 
   - ACTIVATE/DEACTIVATE FUNCTIONS 
   - UNINSTALL METHODS 
