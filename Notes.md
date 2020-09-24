@@ -1,16 +1,18 @@
 - Table of Contents
-  - COVER
-  - FOREWORD
-  - INTRODUCTION 
-  - WHO THIS BOOK IS FOR
-  - WHAT YOU NEED TO USE THIS BOOK
-  - WHAT THIS BOOK COVERS 
-  - HOW THIS BOOK IS STRUCTURED 
-  - CONVENTIONS 
-  - SOURCE CODE 
-  - ERRATA 
-- 01 An Introduction to Plugins
-  - WHAT IS A PLUGIN?
+  - [ ] COVER
+  - [ ]  FOREWORD
+  - [ ]  INTRODUCTION 
+  - [ ]  WHO THIS BOOK IS FOR
+  - [ ]  WHAT YOU NEED TO USE THIS BOOK
+  - [ ]  WHAT THIS BOOK COVERS 
+  - [ ]  HOW THIS BOOK IS STRUCTURED 
+  - [ ]  CONVENTIONS 
+  - [ ]  SOURCE CODE 
+  - [ ]  ERRATA 
+- [ ] 01 An Introduction to Plugins                 001
+  -  [ ] What Is a Plugin?                           001
+    - [ ] How Plugins Interact with WordPress   002
+    - [ ] When Are Plugins Loaded?              003
   - AVAILABLE PLUGINS
   - ADVANTAGES OF PLUGINS
   - INSTALLING AND MANAGING PLUGINS 
@@ -41,7 +43,7 @@
   - PERFORMANCE OVERVIEW 
   - CACHING 
   - TRANSIENTS 
-  - SUMMARY 
+  - SUMMARY   
 - 05 Hooks 
   - UNDERSTANDING HOOKS 
   - ACTIONS 
