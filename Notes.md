@@ -9,14 +9,29 @@
   - [ ]  CONVENTIONS 
   - [ ]  SOURCE CODE 
   - [ ]  ERRATA 
-- [ ] 01 An Introduction to Plugins                 001
-  -  [ ] What Is a Plugin?                           001
-    - [ ] How Plugins Interact with WordPress   002
-    - [ ] When Are Plugins Loaded?              003
-  - AVAILABLE PLUGINS
-  - ADVANTAGES OF PLUGINS
-  - INSTALLING AND MANAGING PLUGINS 
-  - SUMMARY
+- [ ] 01 An Introduction to Plugins               001
+  -  [ ] What Is a Plugin?                        001
+      - [ ] How Plugins Interact with WordPress   002
+      - [ ] When Are Plugins Loaded?              003
+  -  [ ] Available Plugins                        004
+      - [ ] Official Plugin Directory 004
+      - [ ] Popular Plugin Examples 004
+      - [ ] Popular Plugin Tags 005
+  -  [ ] Advantages of Plugins 005
+      - [ ] Not Modifying Core 005
+      - [ ] Why Reinvent the Wheel? 005
+      - [ ] Separating Plugins and Themes 006
+      - [ ] Easy Updates 007
+      - [ ] Easier to Share and Reuse 007
+      - [ ] Plugin Sandbox 007
+      - [ ] Plugin Community 007
+  -  [ ] Installing and Managing Plugins 008
+      - [ ] Installing a Plugin 009
+      - [ ] Managing Plugins 009
+      - [ ] Editing Plugins 009
+      - [ ] Plugin Directories 009
+      - [ ] Types of Plugins 010
+  -  [ ] Summary 011
 - 02 Plugin Framework 
   - REQUIREMENTS FOR PLUGINS 
   - BEST PRACTICES 
