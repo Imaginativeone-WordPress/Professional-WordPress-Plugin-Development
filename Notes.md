@@ -43,11 +43,30 @@
   - Plugin Header
     - [ ] Creating the Header
     - [ ] Plugin License
-  - DETERMINING PATHS 
-  - ACTIVATE/DEACTIVATE FUNCTIONS 
-  - UNINSTALL METHODS 
-  - CODING STANDARDS 
-  - SUMMARY
+  - Determining Paths 019
+    - [ ] Plugins Paths
+    - [ ] Local Paths
+    - [ ] URL Paths
+  - Activate/Deactivate Functions
+    - [ ] Plugin Activation Function
+    - [ ] Plugin Deactivation Function
+    - [ ] Deactivate Is Not Uninstall
+  - Uninstall Methods
+    - [ ] Why Uninstall Is Necessary
+    - [ ] Uninstall.php
+    - [ ] Uninstall Hook
+  - Coding Standards
+    - [ ] Document Your Code
+    - [ ] Naming Variables and Functions
+    - [ ] Naming Classes and Methods
+    - [ ] Naming Files
+    - [ ] Single and Double Quotes
+    - [ ] Indentation
+    - [ ] Brace Style
+    - [ ] Space Usage
+    - [ ] Shorthand PHP
+    - [ ] SQL Statements
+  - Summary
 - 03 Dashboard and Settings 
   - ADDING MENUS AND SUBMENUS 
   - PLUGIN SETTINGS 
