@@ -141,7 +141,8 @@
         - [ ] Environment and Server Variables
         - [ ] Arrays of Data
         - [ ] Database Queries
-  - FORMATTING SQL STATEMENTS 
+  - [ ] Formatting SQL Statements
+    - [ ] The $wpdb Object
   - SECURITY GOOD HABITS 
   - PERFORMANCE OVERVIEW 
   - CACHING 
