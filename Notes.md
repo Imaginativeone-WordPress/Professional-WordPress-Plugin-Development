@@ -4,7 +4,7 @@
   - [ ]  INTRODUCTION 
   - [ ]  WHO THIS BOOK IS FOR
   - [ ]  WHAT YOU NEED TO USE THIS BOOK
-  - [ ]  WHAT THIS BOOK COVERS 
+  - [ ]  WHAT THIS BOOK COVERS
   - [ ]  HOW THIS BOOK IS STRUCTURED 
   - [ ]  CONVENTIONS 
   - [ ]  SOURCE CODE 
@@ -132,6 +132,15 @@
       - [ ] Validating or Sanitizing Output?
       - [ ] Validating or Sanitizing Cookbook
         - [ ] Integers
+        - [ ] Arbitrary Text Strings
+        - [ ] Key and Identifier Strings
+        - [ ] Email Strings
+        - [ ] URLs
+        - [ ] HTML
+        - [ ] JavaScript
+        - [ ] Environment and Server Variables
+        - [ ] Arrays of Data
+        - [ ] Database Queries
   - FORMATTING SQL STATEMENTS 
   - SECURITY GOOD HABITS 
   - PERFORMANCE OVERVIEW 
