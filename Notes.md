@@ -32,7 +32,7 @@
       - [ ] Plugin Directories 009
       - [ ] Types of Plugins 010
   -  [ ] Summary 011
-- 02 Plugin Framework 013
+- [ ] 02 Plugin Framework 013
   - [ ] Requirements for Plugins 013
     - [ ] Naming Your Plugin
     - [ ] Using a Folder
@@ -40,22 +40,22 @@
     - [ ] Namespace Everything
     - [ ] File Organization
     - [ ] Folder Structure
-  - Plugin Header
+  - [ ] Plugin Header
     - [ ] Creating the Header
     - [ ] Plugin License
-  - Determining Paths 019
+  - [ ] Determining Paths 019
     - [ ] Plugins Paths
     - [ ] Local Paths
     - [ ] URL Paths
-  - Activate/Deactivate Functions
+  - [ ] Activate/Deactivate Functions
     - [ ] Plugin Activation Function
     - [ ] Plugin Deactivation Function
     - [ ] Deactivate Is Not Uninstall
-  - Uninstall Methods
+  - [ ] Uninstall Methods
     - [ ] Why Uninstall Is Necessary
     - [ ] Uninstall.php
     - [ ] Uninstall Hook
-  - Coding Standards
+  - [ ] Coding Standards
     - [ ] Document Your Code
     - [ ] Naming Variables and Functions
     - [ ] Naming Classes and Methods
@@ -66,12 +66,33 @@
     - [ ] Space Usage
     - [ ] Shorthand PHP
     - [ ] SQL Statements
-  - Summary
-- 03 Dashboard and Settings 
-  - ADDING MENUS AND SUBMENUS 
-  - PLUGIN SETTINGS 
-  - THE OPTIONS API 
-  - THE SETTINGS API 
+  - [ ] Summary
+- [ ] 03 Dashboard and Settings 
+  - [ ] Adding Menus and Submenus
+    - [ ] Creating a Top-Level Menu
+    - [ ] Adding a Submenu
+    - [ ] Adding a Menu Item to an Existing Menu
+  - [ ] Plugin Settings
+  - [ ] The Options API
+    - [ ] Saving Options
+    - [ ] Saving an Array of Options
+    - [ ] Updating Options
+    - [ ] Retrieving Options
+    - [ ] Loading an Array of Options
+    - [ ] Deleting Options
+    - [ ] The Autoload Parameter
+      - [ ] Segregating Plugin Options
+      - [ ] Toggling the Autoload Parameter
+  - The Settings API 042 xv
+    - [ ] Benefits of the Settings API 042 xv
+    - [ ] Settings API Functions 042 xv
+      - [ ] Creating the Plugin Administration Page 043 xv
+      - [ ] Registering New Settings 043 xv
+      - [ ] Defining Sections and Settings 044 xv
+      - [ ] Validating User Input 046 xv
+      - [ ] Rendering the Form 047 xv
+      - [ ] All Done! 048 xv
+    - [ ] Wrapping It Up: A Complete Plugin Management Page 048 xv
   - KEEPING IT CONSISTENT 
   - SUMMARY
 - 04 Security and Performance 
