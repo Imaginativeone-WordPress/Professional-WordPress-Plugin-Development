@@ -83,7 +83,7 @@
     - [ ] The Autoload Parameter
       - [ ] Segregating Plugin Options
       - [ ] Toggling the Autoload Parameter
-  - The Settings API 042 xv
+  - [ ] The Settings API 042 xv
     - [ ] Benefits of the Settings API 042 xv
     - [ ] Settings API Functions 042 xv
       - [ ] Creating the Plugin Administration Page 043 xv
@@ -93,12 +93,39 @@
       - [ ] Rendering the Form 047 xv
       - [ ] All Done! 048 xv
     - [ ] Wrapping It Up: A Complete Plugin Management Page 048 xv
-  - KEEPING IT CONSISTENT 
-  - SUMMARY
-- 04 Security and Performance 
-  - SECURITY OVERVIEW 
-  - USER PERMISSIONS 
-  - NONCES 
+    - [ ] Improving Feedback on Validation Errors 051 xv
+    - [ ] Expanding with Additional Types 052
+    - [ ] Adding Fields to an Existing Page 059 xv
+      - [ ] How It Works 059 xv
+      - [ ] Adding a Section to an Existing Page 059 xv
+      - [ ] Adding Only Fields 060 xv
+      - [ ] WordPress' Sections and Setting Fields 061 xv
+      - [ ] User Interface Concerns 062 xv
+    - [ ] Removing Settings 062 xv
+  - [ ] Keeping It Consistent 063 xv
+    - [ ] Using the WordPress UI 064 xv
+    - [ ] Headings
+    - [ ] Dashicons
+    - [ ] Messages
+    - [ ] Buttons
+    - [ ] Form Fields
+    - [ ] Tables
+    - [ ] Pagination
+  - [ ] Summary 070 xv
+- [ ] 04 Security and Performance 071 xv
+  - [ ] Security Overview 072 xv
+    - [ ] What Securing Your Plugin Is 072 xv
+    - [ ] What Securing Your Plugin Is Not 072 xv
+  - User Permissions 072 xv
+    - [ ] How to Check current_user_can()
+    - [ ] Do Not Check Too Early
+  - Nonces
+    - [ ] Authority vs. Intention
+    - [ ] What Is a Nonce?
+    - [ ] How to Create and Verify Nonces
+      - [ ] Creating a Nonce URL
+      - [ ] Creating a Nonce Field
+      - [ ] Creating and Verifying a Nonce in a Plugin
   - DATA VALIDATION AND SANITIZATION 
   - FORMATTING SQL STATEMENTS 
   - SECURITY GOOD HABITS 
