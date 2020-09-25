@@ -116,17 +116,22 @@
   - [ ] Security Overview 072 xv
     - [ ] What Securing Your Plugin Is 072 xv
     - [ ] What Securing Your Plugin Is Not 072 xv
-  - User Permissions 072 xv
+  - [ ] User Permissions 072 xv
     - [ ] How to Check current_user_can()
     - [ ] Do Not Check Too Early
-  - Nonces
+  - [ ] Nonces
     - [ ] Authority vs. Intention
     - [ ] What Is a Nonce?
     - [ ] How to Create and Verify Nonces
       - [ ] Creating a Nonce URL
       - [ ] Creating a Nonce Field
       - [ ] Creating and Verifying a Nonce in a Plugin
-  - DATA VALIDATION AND SANITIZATION 
+  - [ ] Data Validation and Sanitization
+      - [ ] The Need for Data Validation and Sanitization
+      - [ ] Good Practice: Identifying Potentially Tainted Data
+      - [ ] Validating or Sanitizing Output?
+      - [ ] Validating or Sanitizing Cookbook
+        - [ ] Integers
   - FORMATTING SQL STATEMENTS 
   - SECURITY GOOD HABITS 
   - PERFORMANCE OVERVIEW 
